@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container"><a class="header__logo" href="index.html"><img class="header__logo" src="images/logo.svg" alt="Hotel Bayview" width="171"></a>
+        <nav><img class="header__menu" src="images/menu.svg" width="26" onclick="changeNav()"><img class="header__close" src="images/close.svg" width="19" onclick="changeNav()">
+          <ul class="header__navigation">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="list.html">Кімнати</a></li>
+            <li><a href="room.html">Одиночні кімнати</a></li>
+            <li><a href="">Бронювання</a></li>
+            <li><a href="">Наші новини</a></li>
+            <li><a href="">Зв'язок</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="room-intro" data-speed="10" data-type="background">
+      <h1 class="room-intro__title">Адріатичний Люкс</h1>
+      <div class="room-intro__container">
+        <div class="room-intro__text">
+          <ul class="room-intro__navigation">
+            <li><a>Опис</a></li>
+            <li><a>Обслуговування номерів</a></li>
+            <li><a>Додаткові послуги</a></li>
+            <li><a>Галерея</a></li>
+            <li><a>Рецензії</a></li>
+          </ul>
+          <h4 class="room-intro__description"><span class="room-intro__money">300</span><span class="room-intro__period">$/за ніч</span></h4>
+        </div>
+      </div>
+    </section>
+    <section class="room-page">
+      <h1 class="room-page__title">Адріатичний Люкс</h1>
+      <h2 class="room-page__subtitle">Готель "Базальт"</h2>
+      <div class="room-page__main">
+        <div class="room-page__container">
+          <div class="room room_adriatic room_page">
+            <div class="room-page__intro"><span class="room__rating">7.5</span><span class="room-page__reviews">5 Переглядів</span></div>
+          </div>
+          <div class="room-benefits">
+            <div class="room-benefit"><img class="room-benefit__image" src="images/icons/user.svg" width="29"><span class="room-benefit__description">3 гостей</span></div>
+            <div class="room-benefit"><img class="room-benefit__image" src="images/icons/plan.svg" width="29"><span class="room-benefit__description">57 M2</span></div>
+            <div class="room-benefit"><img class="room-benefit__image" src="images/icons/apartment.svg" width="29"><span class="room-benefit__description">300$ / за ніч</span></div>
+            <div class="room-benefit"><img class="room-benefit__image" src="images/icons/calendar.svg" width="31"><span class="room-benefit__description">тижнева ціна</span></div>
+          </div>
+          <p class="room-description">Цей просторий люкс з 2 балконами та видом на головну площу Ровіня, жваву набережну та головну набережну оснащений кондиціонером, 2 SMART-телевізорами, міні-баром та усім необхідним для приготування кави/чаю. Сучасна ванна кімната оснащена душовою кабіною, ванною, феном і безкоштовними туалетно-косметичними засобами. Номер прикрашений картинами, написаними олією на полотні, рідкісними фотографіями та винятковими прикрасами відомих місцевих та міжнародних художників. Після прибуття гості отримають безкоштовний глечик води, натуральний сироп і кошик з фруктами.</p>
+          <div class="room-services">
+            <h3 class="room-services__title">Обслуговування номерів</h3>
+            <ul class="room-services__list">
+              <li class="room-service"><img class="room-service__icon" src="images/icons/television.svg" width="20"><span class="room-service__description">Телебачення</span></li>
+              <li class="room-service"><img class="room-service__icon" src="images/icons/no-smoking.svg" width="20"><span class="room-service__description">Куріння заборонено</span></li>
+              <li class="room-service"><img class="room-service__icon" src="images/icons/summer.svg" width="16"><span class="room-service__description">Приватний пляж</span></li>
+              <li class="room-service"><img class="room-service__icon" src="images/icons/bath.svg" width="19"><span class="room-service__description">Ванна кімната</span></li>
+              <li class="room-service"><img class="room-service__icon" src="images/icons/bicycle.svg" width="19"><span class="room-service__description">Прокат велосипедів</span></li>
+              <li class="room-service"><img class="room-service__icon" src="images/icons/cutlery.svg" width="15"><span class="room-service__description">Сніданок включено</span></li>
+              <li class="room-service"><img class="room-service__icon" src="images/icons/cocktail.svg" width="16"><span class="room-service__description">Вітальний напій</span></li>
+              <li class="room-service"><img class="room-service__icon" src="images/icons/towel.svg" width="20"><span class="room-service__description">Вбиральня</span></li>
+              <li class="room-service"><img class="room-service__icon" src="images/icons/beds.svg" width="19"><span class="room-service__description">Королівські ліжка</span></li>
+            </ul>
+          </div>
+        </div>
+        <form class="room-form">
+          <h4 class="room-form__title">1 Гість</h4>
+          <div class="room-form__row">
+            <div class="room-form__container"><span class="room-form__action">Реєстрація</span><span class="room-form__date">26</span><span class="room-form__month">Червень, 2020</span><span class="room-form__weekday">Понеділок</span></div>
+            <div class="room-form__container"><span class="room-form__action">Виселення</span><span class="room-form__date">28</span><span class="room-form__month">Червень, 2020</span><span class="room-form__weekday">Середа</span></div>
+          </div>
+          <div class="button button_yellow button_big">Бронюйте зараз</div>
+        </form>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <footer class="footer">
+      <ul class="footer__menu">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="">Послуги</a></li>
+        <li><a href="">Про нас</a></li>
+        <li><a href="">Бронювання</a></li>
+        <li><a href="">Зв'язок</a></li>
+      </ul>
+    </footer>
+    <script src="https://unpkg.com/shufflejs@5"></script>
+    <script src="all.js"></script>
+  </footer>
+</html>
